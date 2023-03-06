@@ -10,16 +10,13 @@
   bottom: 0;
   z-index: -1;
 } 
-/*audio*/
-
-
  /* avatar */
  .imgavatar{
   border-radius: 50%;
   margin: 5px;
   border: 2px solid #d1cbcb;
   width: 115px;
-  height: auto;
+  height: 115px;
  }
 
  /* say hi */
