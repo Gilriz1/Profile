@@ -1,0 +1,155 @@
+ /* background */
+.background-video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+} 
+/*audio*/
+
+
+ /* avatar */
+ .imgavatar{
+  border-radius: 50%;
+  margin: 5px;
+  border: 2px solid #d1cbcb;
+  width: 150px;
+  height: auto;
+ }
+
+ /* say hi */
+ .pi-pink{
+  color:#fff!important;
+  background-color:#e03737!important;
+  padding:8px 16px!important;
+  opacity: 0.8;
+  border-radius:5px;
+  font-weight: bolder;
+  font-family: 'Texturina', serif;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.links-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  font-family: 'Domine', serif;
+}
+
+.links-container a {
+  width: 80%;
+} 
+
+/* button */
+.pi-button{
+  color:#fff !important; 
+  background-color: #e03737 !important;
+  border-radius: 16px;
+  opacity: 0.3;
+  border:none;
+  display:inline-block;
+  padding:8px 16px;
+  vertical-align:middle;
+  overflow:hidden;
+  text-decoration:none;  
+  text-align:center;
+  cursor:pointer;
+  white-space:nowrap
+}
+
+.pi-l1:hover {
+  background-color: #e03737  !important;
+  opacity: 1.0;
+}
+
+.margin-top-2 {
+  margin-top: 32px;
+}
+.margin-top-3 {
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+.bottom {
+  width: 100%;
+  text-align: center;
+  width: auto;
+  font-weight: bolder;
+}
+
+.bottom span {
+  color: #e03737;
+}
+
+.bottom svg {
+  stroke: #e03737;
+  fill: #e03737;
+}
+
+@media (min-width: 768px) {
+  .link {
+    width: 100%;
+  }
+}
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+/* text decoration */
+.textdeco{
+  text-shadow: 1px 1px 2px white;
+  font-family: 'Gluten', cursive;
+}
+.textbotton{
+  font-family: 'Gluten', cursive;
+  vertical-align: 5px;
+}
+/* loader */
+#loader{
+  display: block;
+  position: relative;
+  height: 12px;
+  width: 30%;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  align-items: center;
+  margin-top: 17%;
+  margin-left:auto; 
+  margin-right: auto;
+}
+#loader:after{
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 0;
+  background: #e03737;
+  animation: 4s prog ease-in infinite;
+  margin:auto;
+  align-items: center;
+}
+
+@keyframes prog {
+  to  {   width: 100%;}
+}
+#myDiv {
+  display: none;
+}
